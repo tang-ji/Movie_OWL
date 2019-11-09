@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/tangji08/Movie_OWL/master/movie.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/tangji08/Movie_OWL/master/movie.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -157,9 +157,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasEditor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasFilmLocation"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasMPAA_Rating"/>
     </Declaration>
     <Declaration>
@@ -188,9 +185,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isEditorOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isFilmLocationOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isGenreOf"/>
@@ -5817,10 +5811,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isEditorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasFilmLocation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isFilmLocationOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasMPAA_Rating"/>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#isMPAA_RatingOf"/>
     </InverseObjectProperties>
@@ -5862,10 +5852,6 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasEditor"/>
-        <Class IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#Movie"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasFilmLocation"/>
         <Class IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#Movie"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -5915,10 +5901,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasEditor"/>
         <Class IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#Editor"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasFilmLocation"/>
-        <Class IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#Place"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/ji/ontologies/2019/10/movie.owl#hasMPAA_Rating"/>
